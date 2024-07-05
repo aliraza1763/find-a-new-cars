@@ -17,7 +17,7 @@
             <div class="d-flex">
                 <a class="navbar-brand" href="#">
                     <div>
-                        <img src="./a3870f797b96388dcef2340350683d8b371a997e-137x51.png">
+                        <img src="./image/a3870f797b96388dcef2340350683d8b371a997e-137x51.png">
                         <span> 1-800-THIScar </span>
                     </div>
                 </a>
@@ -81,16 +81,27 @@
         </div>
     </div>
 
-    <div class="container-fluid mt-3 ">
-        <div class="row justify-content-end">
-            <div class="col-lg-9">
-                <form class="d-flex ">
-                    <i class="fa-solid fa-magnifying-glass position-absolute"></i>
+
+    <div class="container-fluid mt-3 mb-3 ">
+        <div class="row ">
+            <div class="col-lg-8">
+                <form class="input-group input-group-lg offset-4 position-relative">
+                    <i class="fa-solid fa-magnifying-glass position-absolute"
+                        style="z-index: 11; left: 12px; top: 14px;"> </i>
                     <input class="form-control rounded-pill text-center " type="text"
                         placeholder="Enter Make, Model, or Keyword ">
 
                     <button class="btn btn-dark rounded-pill">search</button>
                 </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 offset-3">
+                <a href="#" class="btn btn-dark rounded-pill mt-5 mb-3">Clear All</a>
+                <a href="#" class="btn btn-dark rounded-pill mt-5 mb-3"> Acura <button type="button"
+                        class="btn-close btn-sm"></button></a>
             </div>
         </div>
     </div>
@@ -105,68 +116,445 @@
                 <select class="form-select form-select-lg rounded-pill">
                     <option value="">Select Make</option>
                     <option value="pubg">pubg</option>
+                    <option value="">touyta</option>
+
 
                 </select><br>
                 <hr>
                 <label class="form-label">Model</label>
                 <select class="form-select form-select-lg rounded-pill">
-                    <option value="">Select Model</option>
+                    <option value="">Select Mode</option>
+                    <option value="">new Model</option>
+                    <option value="">brand new Model</option>
                 </select>
-                <select class="form-select form-select-lg mt-4 border-start-0 border-end-0 pt-3 pb-3">
-                    <option value="">Select Model</option>
+                <div class="container-fluid mt-3">
+                    <div id="accordion">
+                        <div class="card border-end-0 border-start-0">
+                            <div class="card-header">
+                                <a href="#collapse1" data-bs-toggle="collapse" class="btn shadow-none">body style</a>
+                                <a href="#collapse1" data-bs-toggle="collapse" class="btn float-end shadow-none">
+                                    <i class="fa-solid fa-angle-down mt-2 "></i>
+                                </a>
+                            </div>
+                            <div id="collapse1" class="collapse">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-6 ">
+                                            <img src="./image/Screenshot_1.png">
+                                            <p class="text ">sodan</p>
+                                        </div>
+                                        <div class="col-6 ">
+                                            <img src="./image/Screenshot_2.png">
+                                            <p class="text">sodan</p>
+                                        </div>
+                                        <div class="col-6 ">
+                                            <img src="./image/Screenshot_3.png">
+                                            <p class="text">sodan</p>
+                                        </div>
+                                        <div class="col-6 ">
+                                            <img src="./image/Screenshot_1.png">
+                                            <p class="text">sodan</p>
+                                        </div>
+                                        <div class="col-6 ">
+                                            <img src="./image/Screenshot_2.png">
+                                            <p class="text">sodan</p>
+                                        </div>
+                                        <div class="col-6 ">
+                                            <img src="./image/Screenshot_3.png">
+                                            <p class="text">sodan</p>
+                                        </div>
 
-                </select>
-                <select class="form-select form-select-lg mt-0 border-start-0 border-end-0 pt-3 pb-3">
-                    <option value="">Body Style</option>
-                </select>
-                <select class="form-select form-select-lg mt-0 border-start-0 border-end-0 pt-3 pb-3">
-                    <option value="">year</option>
-                </select>
-                <select class="form-select form-select-lg mt-0 border-start-0 border-end-0 pt-3 pb-3">
-                    <option value="">Mileage</option>
+                                        <div class="col-12   w-50 mx-auto d-block">
+                                            <img src="./image/Screenshot_2.png">
+                                            <p class="text">sodan</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container-fluid ">
+                    <div id="accordion">
+                        <div class="card border-end-0 border-start-0">
+                            <div class="card-header">
+                                <a href="#collapse2" data-bs-toggle="collapse" class="btn shadow-none"> YEAR</a>
+                                <a href="#collapse2" data-bs-toggle="collapse" class="btn float-end shadow-none">
+                                    <i class="fa-solid fa-angle-down mt-2 "></i>
+                                </a>
+                            </div>
+                            <div id="collapse2" class="collapse">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-6 mb-3">
+                                            <input type="number" value="2013" min="2012" max="2021" step="1"
+                                                class="btn btn-outline-secondary rounded-pill w-100  ">
+
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <input type="number" value="2024" min="2012" max="2021" step="1"
+                                                class="btn btn-outline-secondary rounded-pill w-100  ">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid ">
+                    <div id="accordion">
+                        <div class="card border-end-0 border-start-0">
+                            <div class="card-header">
+                                <a href="#collapse3" data-bs-toggle="collapse" class="btn shadow-none"> Mileage </a>
+                                <a href="#collapse3" data-bs-toggle="collapse" class="btn float-end shadow-none">
+                                    <i class="fa-solid fa-angle-down mt-2 "></i>
+                                </a>
+                            </div>
+                            <div id="collapse3" class="collapse">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <input type="number" value="0" min="0" max="12500" step="1"
+                                                class="btn btn-outline-secondary rounded-pill w-100  ">
+
+                                        </div>
+                                        <div class="col-6">
+                                            <input type="number" value="12500" min="0" max="12500" step="1"
+                                                class="btn btn-outline-secondary rounded-pill w-100  ">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid ">
+                    <div id="accordion">
+                        <div class="card border-end-0 border-start-0">
+                            <div class="card-header">
+                                <a href="#collapse4" data-bs-toggle="collapse" class="btn shadow-none"> Price </a>
+                                <a href="#collapse4" data-bs-toggle="collapse" class="btn float-end shadow-none">
+                                    <i class="fa-solid fa-angle-down mt-2 "></i>
+                                </a>
+                            </div>
+                            <div id="collapse4" class="collapse">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <input type="number" value="9000" min="9000" max="12500" step="1"
+                                                class="btn btn-outline-secondary rounded-pill w-100  ">
+
+                                        </div>
+                                        <div class="col-6">
+                                            <input type="number" value="12500" min="0" max="12500" step="1"
+                                                class="btn btn-outline-secondary rounded-pill w-100  ">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid ">
+                    <div id="accordion">
+                        <div class="card border-end-0 border-start-0">
+                            <div class="card-header">
+                                <a href="#collapse5" data-bs-toggle="collapse" class="btn shadow-none"> drive train </a>
+                                <a href="#collapse5" data-bs-toggle="collapse" class="btn float-end shadow-none">
+                                    <i class="fa-solid fa-angle-down mt-2 "></i>
+                                </a>
+                            </div>
+                            <div id="collapse5" class="collapse">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-6 mb-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">AWD</button>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">pwd</button>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">riew</button>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">AWD</button>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">other</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid ">
+                    <div id="accordion">
+                        <div class="card border-end-0 border-start-0">
+                            <div class="card-header">
+                                <a href="#collapse6" data-bs-toggle="collapse" class="btn shadow-none"> Engine </a>
+                                <a href="#collapse6" data-bs-toggle="collapse" class="btn float-end shadow-none">
+                                    <i class="fa-solid fa-angle-down mt-2 "></i>
+                                </a>
+                            </div>
+                            <div id="collapse6" class="collapse">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-6 mt-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">1.0L</button>
+                                        </div>
+                                        <div class="col-6 mt-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">1.2L</button>
+                                        </div>
+                                        <div class="col-6 mt-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">1.3L</button>
+                                        </div>
+                                        <div class="col-6 mt-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">1.4L</button>
+                                        </div>
+                                        <div class="col-6 mt-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">1.5L</button>
+                                        </div>
+                                        <div class="col-6 mt-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">1.6L</button>
+                                        </div>
+                                        <div class="col-6 mt-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">1.7L</button>
+                                        </div>
+                                        <div class="col-6 mt-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">1.8L</button>
+                                        </div>
+                                        <div class="col-6 mt-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">1.9L</button>
+                                        </div>
+                                        <div class="col-6 mt-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">2.0L</button>
+                                        </div>
+                                        <div class="col-6 mt-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">2.1L</button>
+                                        </div>
+                                        <div class="col-6 mt-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">2.2L</button>
+                                        </div>
+                                        <div class="col-6 mt-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">2.3L</button>
+                                        </div>
+                                        <div class="col-6 mt-3  ">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">2.4L</button>
+                                        </div>
+                                        <div class="col-6 mt-3 ">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">2.5L</button>
+                                        </div>
+                                        <div class="col-6  mt-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">2.6L</button>
+                                        </div>
+                                        <div class="col-6  mt-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">2.7L</button>
+                                        </div>
+                                        <div class="col-6  mt-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">2.8L</button>
+                                        </div>
+                                        <div class="col-6  mt-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">2.9L</button>
+                                        </div>
+                                        <div class="col-6  mt-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">3.0L</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid ">
+                    <div id="accordion">
+                        <div class="card border-end-0 border-start-0">
+                            <div class="card-header">
+                                <a href="#collapse7" data-bs-toggle="collapse" class="btn shadow-none"> Clinders </a>
+                                <a href="#collapse7" data-bs-toggle="collapse" class="btn float-end shadow-none">
+                                    <i class="fa-solid fa-angle-down mt-2 "></i>
+                                </a>
+                            </div>
+                            <div id="collapse7" class="collapse">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-6 mb-3">
+                                            <button class="btn btn-outline-secondary rounded-pill py-2 px-4">10</button>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <button class="btn btn-outline-secondary rounded-pill py-2 px-4">12</button>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <button class="btn btn-outline-secondary rounded-pill py-2 px-4">3</button>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <button class="btn btn-outline-secondary rounded-pill py-2 px-4">4</button>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <button class="btn btn-outline-secondary rounded-pill py-2 px-4">6</button>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <button class="btn btn-outline-secondary rounded-pill py-2 px-4">8</button>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">Electric</button>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">Others</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid ">
+                    <div id="accordion">
+                        <div class="card border-end-0 border-start-0">
+                            <div class="card-header">
+                                <a href="#collapse8" data-bs-toggle="collapse" class="btn shadow-none"> Trnsmition </a>
+                                <a href="#collapse8" data-bs-toggle="collapse" class="btn float-end shadow-none">
+                                    <i class="fa-solid fa-angle-down mt-2 "></i>
+                                </a>
+                            </div>
+                            <div id="collapse8" class="collapse">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-6 mb-3">
+
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">automatic</button>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">menuial</button>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">Others</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid ">
+                    <div id="accordion">
+                        <div class="card border-end-0 border-start-0">
+                            <div class="card-header">
+                                <a href="#collapse9" data-bs-toggle="collapse" class="btn shadow-none"> fuel type </a>
+                                <a href="#collapse9" data-bs-toggle="collapse" class="btn float-end shadow-none">
+                                    <i class="fa-solid fa-angle-down mt-2 "></i>
+                                </a>
+                            </div>
+                            <div id="collapse9" class="collapse">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-6 mb-3">
+
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">Desial</button>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">Electical</button>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">hybrid</button>
+                                        </div>
+                                        <div class="col-6 mb-3">
+
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">gasoline</button>
+                                        </div>
+
+                                        <div class="col-6 mb-3">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-pill py-2 px-4">Others</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid ">
+                    <div id="accordion">
+                        <div class="card border-end-0 border-start-0">
+                            <div class="card-header">
+                                <a href="#collapse10" data-bs-toggle="collapse" class="btn shadow-none"> doors </a>
+                                <a href="#collapse10" data-bs-toggle="collapse" class="btn float-end shadow-none">
+                                    <i class="fa-solid fa-angle-down mt-2 "></i>
+                                </a>
+                            </div>
+                            <div id="collapse10" class="collapse">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-6 mb-3">
+
+                                            <button class="btn btn-outline-secondary rounded-pill py-2 px-4">5</button>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <button class="btn btn-outline-secondary rounded-pill py-2 px-4">4</button>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <button class="btn btn-outline-secondary rounded-pill py-2 px-4">3</button>
+                                        </div>
+                                        <div class="col-6 mb-3">
+                                            <button class="btn btn-outline-secondary rounded-pill py-2 px-4">2</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
-                </select>
-                <select class="form-select form-select-lg mt-0 border-start-0 border-end-0 pt-3 pb-3">
-                    <option value="">Price</option>
-                </select>
-                <select class="form-select form-select-lg mt-0 border-start-0 border-end-0 pt-3 pb-3">
-                    <option value="">Drive Train</option>
-
-                </select>
-                <select class="form-select form-select-lg mt-0 border-start-0 border-end-0 pt-3 pb-3">
-                    <option value="">Engine</option>
-
-                </select>
-                <select class="form-select form-select-lg mt-0 border-start-0 border-end-0 pt-3 pb-3">
-                    <option value="">CYlinders</option>
-
-                </select>
-                <select class="form-select form-select-lg mt-0 border-start-0 border-end-0 pt-3 pb-3">
-                    <option value="">Transmission</option>
-
-                </select>
-                <select class="form-select form-select-lg mt-0 border-start-0 border-end-0 pt-3 pb-3">
-                    <option value="">Color</option>
-
-                </select>
-                <select class="form-select form-select-lg mt-0 border-start-0 border-end-0 pt-3 pb-3">
-                    <option value="">Fuel TYpe</option>
-
-                </select>
-                <select class="form-select form-select-lg mt-0 border-start-0 border-end-0 pt-3 pb-3">
-                    <option value="">Doors</option>
-
-                </select>
 
             </div>
-
-
             <div class="col-lg-9  ">
                 <div class="row ">
 
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -178,7 +566,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1FM5K8D83JGB33791_processedPhotos_0a049b93-8591-452f-bfbe-15f4b1411373.jpg"
+                        <img src="./image/1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -190,7 +578,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -202,7 +590,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1GNSKSKD1MR146057_processedPhotos_3c98c980-e8a7-467b-923f-3270d6330d3b.jpg"
+                        <img src="./image/1GNSKSKD1MR146057_processedPhotos_3c98c980-e8a7-467b-923f-3270d6330d3b.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -214,7 +602,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1FM5K8D83JGB33791_processedPhotos_0a049b93-8591-452f-bfbe-15f4b1411373.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -226,7 +614,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1FM5K8D83JGB33791_processedPhotos_0a049b93-8591-452f-bfbe-15f4b1411373.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -238,7 +626,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1FM5K8D83JGB33791_processedPhotos_0a049b93-8591-452f-bfbe-15f4b1411373.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -250,7 +638,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1FM5K8D83JGB33791_processedPhotos_0a049b93-8591-452f-bfbe-15f4b1411373.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -262,7 +650,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1FM5K8D83JGB33791_processedPhotos_0a049b93-8591-452f-bfbe-15f4b1411373.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -274,7 +662,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1FM5K8D83JGB33791_processedPhotos_0a049b93-8591-452f-bfbe-15f4b1411373.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -286,7 +674,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1FM5K8D83JGB33791_processedPhotos_0a049b93-8591-452f-bfbe-15f4b1411373.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -298,7 +686,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1FM5K8D83JGB33791_processedPhotos_0a049b93-8591-452f-bfbe-15f4b1411373.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -310,7 +698,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1FM5K8D83JGB33791_processedPhotos_0a049b93-8591-452f-bfbe-15f4b1411373.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -322,7 +710,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -334,7 +722,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -346,7 +734,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -358,7 +746,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1GNSKSKD1MR146057_processedPhotos_3c98c980-e8a7-467b-923f-3270d6330d3b.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -370,7 +758,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1GNSKSKD1MR146057_processedPhotos_3c98c980-e8a7-467b-923f-3270d6330d3b.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -382,7 +770,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1GNSKSKD1MR146057_processedPhotos_3c98c980-e8a7-467b-923f-3270d6330d3b.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -394,7 +782,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1GNSKSKD1MR146057_processedPhotos_3c98c980-e8a7-467b-923f-3270d6330d3b.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -406,7 +794,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1GNSKSKD1MR146057_processedPhotos_3c98c980-e8a7-467b-923f-3270d6330d3b.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -418,7 +806,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1GNSKSKD1MR146057_processedPhotos_3c98c980-e8a7-467b-923f-3270d6330d3b.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -430,7 +818,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1GNSKSKD1MR146057_processedPhotos_3c98c980-e8a7-467b-923f-3270d6330d3b.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -442,7 +830,7 @@
                         </div>
                     </div>
                     <div class="card" style="width: 15rem;">
-                        <img src="./1C6RD7PT4CS238468_processedPhotos_cdf4921e-6dea-43c9-8bf5-94777b7ba628.jpg"
+                        <img src="./image/1GNSKSKD1MR146057_processedPhotos_3c98c980-e8a7-467b-923f-3270d6330d3b.jpg"
                             class="card-img-top" alt="...">
 
                         <div class="card-body">
@@ -458,14 +846,14 @@
         </div>
     </div>
     </div>
-    <div class="container-fluid footer-bg bg-success py-4">
+    <div class="container-fluid  py-4">
         <div class="container-fluid p-lg-5 p-sm-0">
             <div class="row pt-4">
                 <div class="col-12">
                     <a href="#" class="d-flex">
                         <div>
                             <img alt="THiscar.com" loading="lazy" width="137" height="51"
-                                src="./a3870f797b96388dcef2340350683d8b371a997e-137x51.png">
+                                src="./image/a3870f797b96388dcef2340350683d8b371a997e-137x51.png">
                         </div>
                     </a>
                 </div>
@@ -474,7 +862,37 @@
                 <div class="col-12 col-sm-6 container-custom ">
                     <div class="row">
                         <div class="col-sm-6 col-5 ">
-                            <ul class="p-0 ">
+                            <ul class="p-0 list-unstyled ">
+                                <li>
+                                    <a href="#">Shop</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sell or trade</a>
+                                </li>
+                                <li>
+                                    <a href="#">about</a>
+                                </li>
+                                <li>
+                                    <a href="#">Cookies Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Term of Use</a>
+                                </li>
+                                <li>
+                                    <a href="#">Shop</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sell or trade</a>
+                                </li>
+                                <li>
+                                    <a href="#">about</a>
+                                </li>
+                                <li>
+                                    <a href="#">Cookies Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Term of Use</a>
+                                </li>
                                 <li>
                                     <a href="#">Shop</a>
                                 </li>
@@ -494,10 +912,11 @@
 
 
 
+
                             </ul>
                         </div>
                         <div class="col-5">
-                            <ul class="p-0">
+                            <ul class="p-0 list-unstyled">
                                 <li>
                                     <a href="#"> who it works</a>
                                 </li>
@@ -510,6 +929,36 @@
                                 <li>
                                     <a href="#"> FAQ's</a>
                                 </li>
+                                <li>
+                                    <a href="#">Shop</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sell or trade</a>
+                                </li>
+                                <li>
+                                    <a href="#">about</a>
+                                </li>
+                                <li>
+                                    <a href="#">Cookies Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Term of Use</a>
+                                </li>
+                                <li>
+                                    <a href="#">Shop</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sell or trade</a>
+                                </li>
+                                <li>
+                                    <a href="#">about</a>
+                                </li>
+                                <li>
+                                    <a href="#">Cookies Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Term of Use</a>
+                                </li>
 
                             </ul>
                         </div>
@@ -517,79 +966,283 @@
 
                 </div>
                 <div class="col-12 col-sm-6">
-                    <ul class="row">
+                    <ul class="row list-unstyled ">
                         <li class="col-6">
                             <a href="#">
-                                "Find a"
-                                "Acura"
+                                Find a
+                                Acura
                             </a>
                         </li>
                         <li class="col-6">
                             <a href="#">
-                                "Find a"
-                                "Alfa romeo"
+                                Find a
+                                Alfa romeo
+                            </a>
+                        </li>
+
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Audi
                             </a>
                         </li>
                         <li class="col-6">
                             <a href="#">
-                                "Find a"
-                                "Audi"
+                                Find a
+                                BMW
                             </a>
                         </li>
                         <li class="col-6">
                             <a href="#">
-                                "Find a"
-                                "BMW"
+                                Find a
+                                Buick
                             </a>
                         </li>
                         <li class="col-6">
                             <a href="#">
-                                "Find a"
-                                "Buick"
+                                Find a
+                                Cadillac
                             </a>
                         </li>
                         <li class="col-6">
                             <a href="#">
-                                "Find a"
-                                "Cadillac"
+                                Find a
+                                Chevorolet
                             </a>
                         </li>
                         <li class="col-6">
                             <a href="#">
-                                "Find a"
-                                "Chevorolet"
+                                Find a
+                                chrysler
                             </a>
                         </li>
                         <li class="col-6">
                             <a href="#">
-                                "Find a"
-                                "chrysler"
+                                Find a
+                                Dodge
                             </a>
                         </li>
                         <li class="col-6">
                             <a href="#">
-                                "Find a"
-                                "Dodge"
+                                Find a
+                                Acura
                             </a>
                         </li>
                         <li class="col-6">
                             <a href="#">
-                                "Find a"
-                                "FIAT"
+                                Find a
+                                Alfa romeo
+                            </a>
+                        </li>
+
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Audi
                             </a>
                         </li>
                         <li class="col-6">
                             <a href="#">
-                                "Find a"
-                                "Ford"
+                                Find a
+                                BMW
                             </a>
                         </li>
                         <li class="col-6">
                             <a href="#">
-                                "Find a"
-                                "Genesis"
+                                Find a
+                                Buick
                             </a>
                         </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Cadillac
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Chevorolet
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                chrysler
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Dodge
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Acura
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Alfa romeo
+                            </a>
+                        </li>
+
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Audi
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                BMW
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Buick
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Cadillac
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Chevorolet
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                chrysler
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Dodge
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Acura
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Alfa romeo
+                            </a>
+                        </li>
+
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Audi
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                BMW
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Buick
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Cadillac
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Chevorolet
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                chrysler
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Dodge
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Acura
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Alfa romeo
+                            </a>
+                        </li>
+
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Audi
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                BMW
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Buick
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Cadillac
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Chevorolet
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                chrysler
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#">
+                                Find a
+                                Dodge
+                            </a>
+                        </li>
+
                     </ul>
                 </div>
 
